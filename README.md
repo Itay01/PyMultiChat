@@ -2,6 +2,23 @@
 
 PyMultiChat is a simple multi-client chat application built with Python's socket and threading modules. It consists of a server and multiple clients that allow users to communicate in real-time. The application supports features like private messaging, user management by managers, and message broadcasting.
 
+## Table of Contents
+
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Running the Server](#running-the-server)
+  - [Connecting a Client](#connecting-a-client)
+  - [Client Commands](#client-commands)
+  - [Notes](#notes)
+- [Project Structure](#project-structure)
+- [How It Works](#how-it-works)
+  - [Server](#server)
+  - [Client](#client)
+
+---
+
 ## Features
 
 - **Multi-user Support**: Multiple clients can connect to the server simultaneously.
@@ -97,3 +114,7 @@ PyMultiChat is a simple multi-client chat application built with Python's socket
 - **Input Handling**: Separate threads to handle user input and server messages concurrently.
 - **Message Construction**: Messages are constructed with lengths and action codes to match the server's parsing expectations.
 - **Exit Handling**: Graceful exit when the user types `quit` or when the server disconnects.
+
+---
+
+**Enjoy chatting with PyMultiChat!**
